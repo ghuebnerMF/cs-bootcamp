@@ -15,7 +15,7 @@
 namespace: io.cloudslang.demo.aos.tools
 
 operation:
-  name: extract_filename
+  name: extract_filename1
 
   inputs:
     - url
