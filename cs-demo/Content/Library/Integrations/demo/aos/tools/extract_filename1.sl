@@ -15,14 +15,14 @@
 namespace: io.cloudslang.demo.aos.tools
 
 operation:
-  name: extract_filename
+  name: extract_filename1
 
   inputs:
     - url
 
   python_action:
     script: |
-    filename = url[url.rfind("/")+1:]
+     filename = url[url.rfind("/")+1:]
 
   outputs:
     - filename: ${filename}
